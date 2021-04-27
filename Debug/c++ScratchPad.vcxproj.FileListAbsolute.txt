@@ -1,2 +1,4 @@
 C:\Users\rwmer\source\c++\c-ScratchPad\Debug\c++ScratchPad.exe
 C:\Users\rwmer\source\c++\c-ScratchPad\Debug\c++ScratchPad.pdb
+C:\Users\rmerriga\source\repos\c-ScratchPad\Debug\c++ScratchPad.exe
+C:\Users\rmerriga\source\repos\c-ScratchPad\Debug\c++ScratchPad.pdb

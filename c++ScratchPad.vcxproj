@@ -140,17 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="c++ScratchPad.cpp" />
+    <ClCompile Include="employeewage.cpp" />
     <ClCompile Include="milespergallon.cpp" />
     <ClCompile Include="rickstrings.cpp" />
     <ClCompile Include="rickvalidatedata.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\..\..\..\..\murach\cpp\vs\ex_starts\ch05_ex3_employee_wages\employee_wages\wages.txt" />
     <Text Include="old_code.txt" />
     <Text Include="test.txt" />
     <Text Include="test1.txt" />
     <Text Include="trips.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="employeewage.h" />
     <ClInclude Include="milespergallon.h" />
     <ClInclude Include="rickstrings.h" />
     <ClInclude Include="rickvalidatedata.h" />

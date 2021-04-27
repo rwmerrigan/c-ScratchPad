@@ -27,12 +27,16 @@
     <ClCompile Include="milespergallon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="employeewage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="old_code.txt" />
     <Text Include="test.txt" />
     <Text Include="test1.txt" />
     <Text Include="trips.txt" />
+    <Text Include="..\..\..\..\..\murach\cpp\vs\ex_starts\ch05_ex3_employee_wages\employee_wages\wages.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="rickstrings.h">
@@ -42,6 +46,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="milespergallon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="employeewage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
