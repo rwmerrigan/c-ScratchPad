@@ -21,18 +21,27 @@
     <ClCompile Include="rickstrings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rickfiles.cpp">
+    <ClCompile Include="rickvalidatedata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="milespergallon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="old_code.txt" />
+    <Text Include="test.txt" />
+    <Text Include="test1.txt" />
+    <Text Include="trips.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="rickstrings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="rickfiles.h">
+    <ClInclude Include="rickvalidatedata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="milespergallon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

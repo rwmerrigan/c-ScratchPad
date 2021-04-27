@@ -2,16 +2,13 @@
 #include <iomanip>
 #include <vector>
 
-#include "rickstrings.h"
+#include "milespergallon.h"
 
 using namespace std;
 
 int main()
 {
-	string str = "hello";
-
-	cout << rickToUpper(str) << endl;
-	rickStringStats(str);
+	miles_per_gallon();
 
 }
 

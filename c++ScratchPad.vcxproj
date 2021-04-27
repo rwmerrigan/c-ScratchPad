@@ -140,15 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="c++ScratchPad.cpp" />
-    <ClCompile Include="rickfiles.cpp" />
+    <ClCompile Include="milespergallon.cpp" />
     <ClCompile Include="rickstrings.cpp" />
+    <ClCompile Include="rickvalidatedata.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="old_code.txt" />
+    <Text Include="test.txt" />
+    <Text Include="test1.txt" />
+    <Text Include="trips.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="rickfiles.h" />
+    <ClInclude Include="milespergallon.h" />
     <ClInclude Include="rickstrings.h" />
+    <ClInclude Include="rickvalidatedata.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
