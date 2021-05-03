@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="c++ScratchPad.cpp" />
+    <ClCompile Include="createaccount.cpp" />
     <ClCompile Include="employeewage.cpp" />
     <ClCompile Include="milespergallon.cpp" />
     <ClCompile Include="rickstrings.cpp" />
@@ -153,6 +154,7 @@
     <Text Include="trips.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="createaccount.h" />
     <ClInclude Include="employeewage.h" />
     <ClInclude Include="milespergallon.h" />
     <ClInclude Include="rickstrings.h" />

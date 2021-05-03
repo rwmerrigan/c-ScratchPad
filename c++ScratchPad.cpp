@@ -8,18 +8,14 @@
 
 #include "milespergallon.h"
 #include "employeewage.h"
+#include "createaccount.h"
 
 using namespace std;
 
 int main()
 {
-	string teststring = "RichardMerrigan";
-	auto doesItContain = teststring.find_first_of("0123456789");
-	if (doesItContain == -1) {
-		cout << "This does not contain a number";
-	}
+	create_account();
 
-	string name = "Grace Brewster Murray Hopper";
 }
 
 
