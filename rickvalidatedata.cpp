@@ -127,3 +127,68 @@ std::string prompt_validate_return_password() {
 	std::cout << std::endl;
 	return password;
 }
+
+std::string prompt_validate_return_email() {
+	//get the email
+	std::string email;
+	bool valid_email = false;
+	while (!valid_email) {
+		//set valid flag
+		valid_email = true; 
+
+		//get email
+		std::cout << "\nEnter email: ";
+		getline(std::cin, email);
+
+		//make sure email includes an @
+		auto index1 = email.find_last_of("@");
+		if (index1 == -1) {
+			std::cout << "Email must include an @.\n";
+			valid_email = false;
+			continue;
+		}
+		else if(index1 == 0){
+			std::cout << "Email must contain characters before @.\n";
+			valid_email = false;
+			continue;
+		}
+
+		//make sure email includes a .
+		auto index2 = email.find_last_of(".");
+		int zero_based_email_size = email.size() - 1;
+		if (index2 == -1) {
+			std::cout << "Email must include a dot.\n";
+			valid_email = false;
+			continue;
+		}
+		else if (index2 - index1 < 3) {
+			std::cout << "Email has to contain a mail site name like 'gmail' or 'yahoo'\n";
+			valid_email = false;
+			continue;
+		}
+		else if (zero_based_email_size - index2 < 2) {
+			std::cout << "Email must include a url suffix like .com or .uk\n";
+			valid_email = false;
+			continue;
+		}
+
+		std::string alphanumstr;
+		std::string punctstr;
+		for (char c : email) {
+			!ispunct(c) ? alphanumstr.push_back(c) : punctstr.push_back(c);
+		}
+
+		if (punctstr.find_first_not_of("-_@.") != -1) {
+			std::cout << "Emails can only contain the following symbols: @ . - _ \n";
+			valid_email = false;
+			continue;
+		}
+
+		//display message if email is not valid
+		if (!valid_email) {
+			std::cout << "\nPlease try again";
+		}
+	}
+	std::cout << std::endl;
+	return email;
+}

@@ -33,6 +33,12 @@
     <ClCompile Include="createaccount.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="wordjumble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="futurevalue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="old_code.txt" />
@@ -55,6 +61,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="createaccount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wordjumble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="futurevalue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -142,9 +142,11 @@
     <ClCompile Include="c++ScratchPad.cpp" />
     <ClCompile Include="createaccount.cpp" />
     <ClCompile Include="employeewage.cpp" />
+    <ClCompile Include="futurevalue.cpp" />
     <ClCompile Include="milespergallon.cpp" />
     <ClCompile Include="rickstrings.cpp" />
     <ClCompile Include="rickvalidatedata.cpp" />
+    <ClCompile Include="wordjumble.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\..\murach\cpp\vs\ex_starts\ch05_ex3_employee_wages\employee_wages\wages.txt" />
@@ -156,9 +158,11 @@
   <ItemGroup>
     <ClInclude Include="createaccount.h" />
     <ClInclude Include="employeewage.h" />
+    <ClInclude Include="futurevalue.h" />
     <ClInclude Include="milespergallon.h" />
     <ClInclude Include="rickstrings.h" />
     <ClInclude Include="rickvalidatedata.h" />
+    <ClInclude Include="wordjumble.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

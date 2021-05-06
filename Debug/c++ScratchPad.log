@@ -1,5 +1,2 @@
-﻿  c++ScratchPad.cpp
-  createaccount.cpp
-C:\Users\rwmer\source\c++\c-ScratchPad\createaccount.cpp(12,20): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
+﻿  rickvalidatedata.cpp
   c++ScratchPad.vcxproj -> C:\Users\rwmer\source\c++\c-ScratchPad\Debug\c++ScratchPad.exe
